@@ -2,13 +2,12 @@
 "use strict";
 
 function start() {
-	TweenLite.defaultEase = Power2.easeOut;
-	var tl = new TimelineMax({ repeat: 1, repeatDelay: 2.5 });
+	TweenLite.defaultEase = Power3.easeInOut;
+	var tl = new TimelineMax();
 	tl.set(".frame1", { opacity: 1 });
-	tl.from(".t1", .5, { opacity: 0 }, "+=.2");
-
-	tl.to(".t1", .3, { opacity: 0 }, "+=1.7");
-	tl.from(".t2", .3, { opacity: 0 }, "+=.1");
+	tl.to(".childholder", .5, { x: 0 }, "+=.2");
+	tl.to(".childholder", .5, { x: -148 }, "+=1");
+	tl.from(".app", .5, { opacity: 0 }, "+=.3");
 }
 
 start();
