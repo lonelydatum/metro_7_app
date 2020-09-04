@@ -216,7 +216,7 @@ sup {
 }
 
 .frame1 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .screen {
@@ -236,9 +236,9 @@ sup {
 .childholder {
   width: 100%;
   height: 100%;
-  -webkit-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 201px);
+  -ms-transform: translate(0px, 201px);
+  transform: translate(0px, 201px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -264,9 +264,9 @@ sup {
 }
 
 .red {
-  -webkit-transform: translate(148px, 0px);
-  -ms-transform: translate(148px, 0px);
-  transform: translate(148px, 0px);
+  -webkit-transform: translate(0px, 201px);
+  -ms-transform: translate(0px, 201px);
+  transform: translate(0px, 201px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

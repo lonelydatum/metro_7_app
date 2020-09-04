@@ -1,12 +1,16 @@
 function start(){
-	TweenLite.defaultEase = Power3.easeOut
+	TweenLite.defaultEase = Power2.easeOut
 	const tl = new TimelineMax()
 	tl.set(".frame1", {opacity:1})
+	tl.from(".logo", .5, {opacity:0, y:"+=20"}, "+=.3")
 	
-	tl.add("shift", "+=1.3")
-	tl.to(".childholder", .4, {x:-98}, "shift")	
-	tl.from(".txt", .5, {x:"+=300"}, "shift")
+	tl.from([".phone", ".screen"], .5, {opacity:0}, "-=.1")
 
+	
+	tl.from(".screen2", .5, {opacity: 0}, "+=1.3")
+
+	tl.from(".red", .5, {y:300})
+	tl.from(".txt", .5, {opacity: 0}, "+=.3")
 	tl.from(".app", .5, {opacity:0}, "+=.6")
 }
 

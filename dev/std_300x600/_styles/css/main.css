@@ -264,9 +264,9 @@ sup {
 }
 
 .screen2 {
-  -webkit-transform: translate(98px, 0px);
-  -ms-transform: translate(98px, 0px);
-  transform: translate(98px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
