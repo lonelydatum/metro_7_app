@@ -2,7 +2,7 @@ function start(){
 	TweenLite.defaultEase = Power2.easeOut
 	const tl = new TimelineMax()
 	tl.set(".frame1", {opacity:1})
-	tl.from(".logo", .5, {opacity:0, y:"+=20"}, "+=.3")
+	tl.from(".logo", .5, {opacity:0}, "+=.3")
 	
 	tl.from([".phone", ".screen"], .5, {opacity:0}, "-=.1")
 
